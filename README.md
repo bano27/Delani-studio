@@ -5,7 +5,7 @@
 
 Delani Studio is a landing plartform for a fictional studio where Users get to know what the studio is about, the services they offer, what the team does during development of a program and various platforms you can reach them through
 
-follow this link to our live site [link]()   
+follow this link to our live site [link](https://bano27.github.io/Delani-studio/)   
 
 ---
 
