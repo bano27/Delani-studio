@@ -42,3 +42,7 @@ overflow: hidden;}
 transition: transform 2s;}
 
 .container .box:hover .box3 img{transform: scale(1.2);}
+
+.col-md-3:hover{transition: transform 2s;
+transform: scale(1.2);
+overflow: hidden;}
