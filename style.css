@@ -1,3 +1,44 @@
 #section1{background-image: url(images/image2.jpg);}
 #section3{background-image: url(images/image3.jpg);}
 #section6{background-image: url(images/image1.jpg);}
+
+#section4 .container{min-height: 350px;
+  width: 1295px;
+margin: 70px auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+
+
+.container .box{ position: relative;
+margin: 25px;
+width: 300px;
+height: 200px;
+box-sizing: border-box;
+display: inline-block;}
+
+.container .box .box1{ position: relative;
+overflow: hidden;}
+
+.container .box .box1 img{max-width: 100%;
+transition: transform 2s;}
+
+.container .box:hover .box1 img{transform: scale(1.2);}
+
+.container .box .design{position: absolute;}
+
+.container .box .box2{ position: relative;
+overflow: hidden;}
+
+.container .box .box2 img{max-width: 100%;
+transition: transform 2s;}
+
+.container .box:hover .box2 img{transform: scale(1.2);}
+
+.container .box .box3{ position: relative;
+overflow: hidden;}
+
+.container .box .box3 img{max-width: 100%;
+transition: transform 2s;}
+
+.container .box:hover .box3 img{transform: scale(1.2);}
