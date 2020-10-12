@@ -1,5 +1,6 @@
 #section1{background-image: url(images/image2.jpg);}
-#section3{background-image: url(images/image3.jpg);}
+#section3{background-image: url(images/image3.jpg);
+height: 300px;}
 #section6{background-image: url(images/image1.jpg);}
 
 #section4 .container{min-height: 350px;
@@ -46,3 +47,16 @@ transition: transform 2s;}
 .col-md-3:hover{transition: transform 2s;
 transform: scale(1.2);
 overflow: hidden;}
+
+#myFooter{align-items: center;
+justify-content: center;
+}
+
+#social{align-items: center;
+justify-content: center;
+text-align: center;
+display: block;}
+
+label{background: transparent;}
+
+input{background: transparent;}
