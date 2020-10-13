@@ -4,55 +4,48 @@ flex-wrap: wrap;}
 height: 300px;}
 #section6{background-image: url(images/image1.jpg);}
 
-#section4 .container{min-height: 350px;
-  width: 1295px;
-margin: 70px auto;
+#cosection{width: 1280px;
+min-height: 500px;
+margin: 70px auto 0;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;}
 
-
-.container .box{ position: relative;
-margin: 25px;
-width: 300px;
-height: 200px;
+.container .whatwedo{position: relative;
+width: 350px;
+height: 400px;
+background: #fff;
+margin: 10px;
 box-sizing: border-box;
-display: block;
-align-items: center;}
+display: inline-block;}
 
-.container .box .box1{ position: relative;
-overflow: hidden;
-display: block;
-align-items: center;}
+.container .whatwedo .imaging{position: relative;
+overflow: hidden;}
 
-.container .box .box1 img{max-width: 100%;
+.container .whatwedo .imaging img{width: 20%;
+  align-content: center;
 transition: transform 2s;
-display: block;
-align-items: center;}
+opacity: 1;}
 
-.container .box:hover .box1 img{transform: scale(1.2);}
+.container .whatwedo:hover .imaging img{opacity: 0;}
 
-.container .box .design{position: absolute;}
+.container .whatwedo .source{position: absolute;
+background: transparent;
+top: 10px;
+left: 10px;
+bottom: 10px;
+right: 10px;}
 
-.container .box .box2{ position: relative;
-overflow: hidden;}
+.container .whatwedo .source .display{position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+padding: 15px;
+color: #000;
+opacity: 0;}
 
-.container .box .box2 img{max-width: 100%;
-transition: transform 2s;}
+.container .whatwedo .source .display:hover{opacity: 1;}
 
-.container .box:hover .box2 img{transform: scale(1.2);}
-
-.container .box .box3{ position: relative;
-overflow: hidden;}
-
-.container .box .box3 img{max-width: 100%;
-transition: transform 2s;}
-
-.container .box:hover .box3 img{transform: scale(1.2);}
-
-.col-md-3:hover{transition: transform 2s;
-transform: scale(1.2);
-overflow: hidden;}
 
 h3{font-weight: bold;
 text-align: center;}
@@ -107,4 +100,5 @@ top: 50%;
 transform: translateY(-50%);
 text-align: center;
 padding: 15px;
-color: #fff;}
+color: #fff;
+opacity: 0;}
