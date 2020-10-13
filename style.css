@@ -1,5 +1,4 @@
-#section1{background-image: url(images/image2.jpg);
-flex-wrap: wrap;}
+#section1{background-image: url(images/image2.jpg);}
 #section3{background-image: url(images/image3.jpg);
 height: 300px;}
 #section6{background-image: url(images/image1.jpg);}
@@ -42,7 +41,8 @@ transform: translateY(-50%);
 text-align: center;
 padding: 15px;
 color: #000;
-opacity: 0;}
+opacity: 0;
+transition: opacity 0.2s;}
 
 .container .whatwedo .source .display:hover{opacity: 1;}
 
@@ -101,4 +101,7 @@ transform: translateY(-50%);
 text-align: center;
 padding: 15px;
 color: #fff;
-opacity: 0;}
+opacity: 0;
+transition: opacity 0.15s;}
+
+.container .portfolio .whitebox .content:hover{opacity: 1;}
